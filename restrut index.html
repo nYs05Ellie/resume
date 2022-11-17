@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Online-delivery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ul>
+  
+        <!-- The slideshow -->
+        
+           <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src="https://www.voubs.com/original/photo/6d7/The+Flying+Burger_dd003d802c01c9ae043903a69e6323c5.jpg"
+            width="110%"
+            height="750"
+    
+          />
+          
+          <html lang="en"><head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+            <meta name="generator" content="Hugo 0.104.2">
+            <title>Masonry example · Bootstrap v5.2</title>
+            
+        
+            <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/masonry/">
+        
+            
+        
+            
+        
+        <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        
+            <!-- Favicons -->
+        <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+        <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+        <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+        <meta name="theme-color" content="#712cf9">
+        
+        
+            <style>
+              .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+              }
+        
+              @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                  font-size: 3.5rem;
+                }
+              }
+        
+              .b-example-divider {
+                height: 3rem;
+                background-color: rgba(0, 0, 0, .1);
+                border: solid rgba(0, 0, 0, .15);
+                border-width: 1px 0;
+                box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+              }
+        
+              .b-example-vr {
+                flex-shrink: 0;
+                width: 1.5rem;
+                height: 100vh;
+              }
+        
+              .bi {
+                vertical-align: -.125em;
+                fill: currentColor;
+              }
+        
+              .nav-scroller {
+                position: relative;
+                z-index: 2;
+                height: 2.75rem;
+                overflow-y: hidden;
+              }
+        
+              .nav-scroller .nav {
+                display: flex;
+                flex-wrap: nowrap;
+                padding-bottom: 1rem;
+                margin-top: -1px;
+                overflow-x: auto;
+                text-align: center;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+              }
+            </style>
+        
+            
+          </head>
+          <body>
+            
+       
+          
+
+
+
+
+
+        <html lang="en"><head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="description" content="">
+          <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+          <meta name="generator" content="Hugo 0.104.2">
+          <title>Masonry example · Bootstrap v5.2</title>
+      
+          <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/masonry/">
+      
+          
+      
+          
+      
+      <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      
+          <!-- Favicons -->
+      <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+      <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+      <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+      <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+      <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+      <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+      <meta name="theme-color" content="#712cf9">
+      
+      
+          <style>
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              user-select: none;
+            }
+      
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+      
+            .b-example-divider {
+              height: 3rem;
+              background-color: rgba(0, 0, 0, .1);
+              border: solid rgba(0, 0, 0, .15);
+              border-width: 1px 0;
+              box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+            }
+      
+            .b-example-vr {
+              flex-shrink: 0;
+              width: 1.5rem;
+              height: 100vh;
+            }
+      
+            .bi {
+              vertical-align: -.125em;
+              fill: currentColor;
+            }
+      
+            .nav-scroller {
+              position: relative;
+              z-index: 2;
+              height: 2.75rem;
+              overflow-y: hidden;
+            }
+      
+            .nav-scroller .nav {
+              display: flex;
+              flex-wrap: nowrap;
+              padding-bottom: 1rem;
+              margin-top: -1px;
+              overflow-x: auto;
+              text-align: center;
+              white-space: nowrap;
+              -webkit-overflow-scrolling: touch;
+            }
+          </style>
+      
+          
+        </head>
+        <body>
+          <main class="container py-5">
+            <h1 class="d-inline-block mb-2 text-success">¥µmm¥ ïñ †hê †µmm¥ </h1>
+            <main class="container py-5">
+              <h1 class="d-inline-block mb-2 text-danger">A̲B̲O̲U̲T̲ ̲U̲S̲ </h1>
+            
+            
+            
+            
+            
+            <p class="d-inline-block mb-2 text-warning">𝓣𝓮𝓼𝓽𝔂 𝓯𝓸𝓸𝓭 𝓪𝓵𝔀𝓪𝔂𝓼 𝓬𝓪𝓷 𝓶𝓪𝓴𝓮 𝔂𝓸𝓾𝓻 𝓶𝓸𝓶𝓮𝓷𝓽 𝓻𝓮𝓪𝓵𝓵𝔂 𝓱𝓪𝓹𝓹𝔂 <a href="https://masonry.desandro.com/"></a> .</p>
+            
+            <p>𝐖𝖾ᥣ𝖼ⱺꭑ𝖾 𝗍ⱺ '𝐘υꭑꭑ𝗒 𝗂𐓣 𝗍ɦ𝖾 𝐓υꭑꭑ𝗒'.𝐘ⱺυ 𝖼α𐓣 𝖾𐓣𝗃ⱺ𝗒 α𐓣 𝗂𐓣𝗍𝗂ꭑα𝗍𝖾 ᑯ𝗂𐓣𐓣𝖾𝗋,𝖿ⱺ𝗋 𝗍ωⱺ ꭑ𝖾𝖾𝗍 𝖿𝗋𝗂𝖾𐓣ᑯ𝗌 𝖿ⱺ𝗋 α ᥣ𝗂𝗀ɦ𝗍 ꭑ𝖾αᥣ α𝖿𝗍𝖾𝗋 α ꭑⱺ𝗏𝗂𝖾,𝖼𝖾ᥣ𝖾ᑲ𝗋α𝗍𝖾 α 𝖿αꭑ𝗂ᥣ𝗒 𝐁𝗂𝗋𝗍ɦᑯα𝗒, ⱺ𝗋 ɦα𝗏𝖾 α ᑲαᑲ𝗒 𝗌ɦⱺω𝖾𝗋 ρα𝗋𝗍𝗒. 𝐓ɦ𝖾𝖾 𝗀𝗋𝗂ᥣᥣ & ᑲα𝗋 𝗂𝗌 𝗏𝖾𝗋𝗌α𝗍𝗂ᥣ𝖾 𝖾𐓣ⱺυ𝗀ɦ 𝗍ⱺ ɦα𐓣ᑯᥣ𝖾 αᥣꭑⱺ𝗌𝗍 α𐓣𝗒 ᑯ𝗂𐓣𐓣𝗂𐓣𝗀  𝐎𝖼𝖼α𝗌𝗂ⱺ𐓣 α𐓣ᑯ 𝗂𝗌 ᥣα𝗋𝗀𝖾 𝖾𐓣ⱺυ𝗀ɦ 𝗌ⱺ 𝗍ɦα𝗍 ⱺ𐓣𝖾 ᑯⱺ𝖾𝗌𐓣'𝗍 𝗂ꭑρα𝖼𝗍 𝗍ɦ𝖾 ⱺ𝗍ɦ𝖾𝗋.</p>
+            
+            
+            
+            <p>𝑶𝒖𝒓 𝒅𝒂𝒊𝒍𝒚-𝒄𝒉𝒂𝒏𝒈𝒊𝒏𝒈 𝒎𝒆𝒏𝒖,𝒓𝒐𝒐𝒕𝒆𝒅 𝒊𝒏 𝒄𝒍𝒂𝒔𝒔𝒊𝒄 𝑭𝒓𝒆𝒏𝒄𝒉 𝒕𝒆𝒄𝒉𝒏𝒊𝒒𝒖𝒆,𝒇𝒆𝒂𝒕𝒖𝒓𝒆𝒔 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒇𝒓𝒐𝒎 𝒆𝒂𝒄𝒉 𝒉𝒂𝒓𝒗𝒆𝒔𝒕.</p>
+            
+            <hr class="my-5">
+          
+      <main class="container py-5">
+        <h1 class="d-inline-block mb-2 text-bg-success">Ｃａｆｅ ｆｏｏｄ ｍｅｎｕ </h1>
+       
+
+        
+        <p class="lead"><a href="https://masonry.desandro.com/"></a>All of our food  is prepared by our team of trained kitchen staff from the sealed glass kitchen where you can see your food being made,without risk of little paws getting involved.</p>
+        <main class="container py-5">
+          <h1 class="d-inline-block mb-2 text-bg-danger">O̅r̅d̅e̅r̅ ̅t̅a̅s̅t̅y̅ ̅a̅n̅d̅ ̅f̅r̅e̅s̅h̅ ̅f̅o̅o̅d̅ </h1>
+          <main class="container py-5">
+            <button type="button" class="btn btn-primary">𝑶𝒓𝒅𝒆𝒓 𝑵𝒐𝒘
+  
+            </button>
+            <main class="container py-5">
+        <p>✂️👐 We invite you to visit our restaurant 📢🌡</p>
+        
+      
+       
+      
+          
+                
+
+
+           
+
+
+              
+              
+                
+                   
+             
+
+               
+               
+
+
+
+
+
+      
+
+
+
+                
+              
+                
+
+            
+              
+         
+
+
+          
+
+          
+      
+               
+                 
+              
+                
+      
+      </main>
+
+
+
+
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OUR CHEFS</font></font></h1>
+            
+              
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+      
+
+
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="240" height="240" src="https://www.simplybusiness.co.uk/static/896d58b532c8e2ec7ac1719fe62b37ae/b6518/how-to-become-a-chef.jpg"
+          <svg class="bd-placeholder-img rounded-circle" width="" height="" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+  
+          <h2 class="fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Head chef</font></font></h2>
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Christine making his debut in his hometown Chicago. Crafts a straight-forward yet progressive menu drawn from his culinary influences from French technique.Asian herilage,and bi-costal gallivanting.</font></font></p>
+          <p><a class="btn btn-primary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">View details</font></font></a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" width="240" height="240" src="https://www.eatthis.com/wp-content/uploads/sites/4/2020/05/chef-cooking.jpg?quality=82&strip=1"
+          <svg class="bd-placeholder-img rounded-circle" width="" height="" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: "140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+  
+
+          <h2 class="fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Deputy Chef</font></font></h2>
+          <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Our chefs offer you perfect cooking best dishes with fresh ingredients and best recipes.</font></font></p>
+          <p><a class="btn btn-primary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">View details</font></font></a></p>
+        </div><!-- /.col-lg-4 -->
+
+
+
+
+
+      
+
+
+  
+    
+        
+        <html lang="en"><head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="description" content="">
+          <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+          <meta name="generator" content="Hugo 0.104.2">
+          <title>Masonry example · Bootstrap v5.2</title>
+      
+          <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/masonry/">
+      
+          
+      
+          
+      
+      <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      
+          <!-- Favicons -->
+      <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+      <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+      <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+      <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+      <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+      <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+      <meta name="theme-color" content="#712cf9">
+      
+      
+          <style>
+            .bd-placeholder-img {
+              font-size: 1.125rem;
+              text-anchor: middle;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              user-select: none;
+            }
+      
+            @media (min-width: 768px) {
+              .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+              }
+            }
+      
+            .b-example-divider {
+              height: 3rem;
+              background-color: rgba(0, 0, 0, .1);
+              border: solid rgba(0, 0, 0, .15);
+              border-width: 1px 0;
+              box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+            }
+      
+            .b-example-vr {
+              flex-shrink: 0;
+              width: 1.5rem;
+              height: 100vh;
+            }
+      
+            .bi {
+              vertical-align: -.125em;
+              fill: currentColor;
+            }
+      
+            .nav-scroller {
+              position: relative;
+              z-index: 2;
+              height: 2.75rem;
+              overflow-y: hidden;
+            }
+      
+            .nav-scroller .nav {
+              display: flex;
+              flex-wrap: nowrap;
+              padding-bottom: 1rem;
+              margin-top: -1px;
+              overflow-x: auto;
+              text-align: center;
+              white-space: nowrap;
+              -webkit-overflow-scrolling: touch;
+            }
+          </style>
+      
+          
+        </head>
+        <body>
+          
+      <main class="container py-5">
+        
+        <p class="lead"><a href="https://masonry.desandro.com/"></a> </p>
+      
+        <p class="d-inline-block mb-2 text-bg-dark">OUR FOODS </p>
+      
+       
+      
+        <p> <code></code> <code></code> </p>
+      
+        <hr class="my-5">
+      
+        <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 1854.62px;">
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+            <div class="card">
+              <img class="bd-placeholder-img" width="285" height="250" src="https://content.jdmagicbox.com/comp/azamgarh/w9/9999p5252.5252.190717000958.b9w9/catalogue/ansh-fast-food-azamgarh-fast-food-7hn09av3hk.jpg?clr=523314"
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">ORGANIC</text></svg>
+      
+              <div class="card-body">
+                <h5 class="card-title">The food is always fresh,always fun, and theres always something new!</h5>
+                <p class="card-text">From wings to New York strips,we've got it all-and with the whole menu available from open to close,we've got whatever suits your appetite.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 361.953px;">
+            <div class="card p-3">
+              <figure class="p-3 mb-0">
+                <blockquote class="blockquote">
+                  <p> Our food roots are colorful,global and eclectic with a gourmet,playful edge.We get inspired by flavours and ingredients from all four corners of the world and put our signature'wild' twist to them.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 text-muted">
+                  Our aim is to provide a little vision on how <cite title="food could be if we just imagined so !">food could be if we just imagined so !</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 532.893px;">
+            <div class="card">
+              <img class="bd-placeholder-img" width="285" height="250" src="https://static.wixstatic.com/media/708cad_bc9e75de13d54ffcb2d2419e74ca0012~mv2.jpg/v1/fill/w_2500,h_1875,al_c/708cad_bc9e75de13d54ffcb2d2419e74ca0012~mv2.jpg"
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg>
+              
+              <div class="card-body">
+                <h5 class="card-title">Have a healthy afternoon snack</h5>
+                <p class="card-text">The majority of people in the working world are likely familiar with the mid-afternoon slump.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 910.837px;">
+            <div class="card text-bg-primary text-center p-3">
+              <figure class="mb-0">
+                <blockquote class="blockquote">
+                  <p>I JUST DON'T WANT TO LOOK BACK AND THINK '' I COULD HAVE EATEN THAT.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 text-white">
+                  Carbs might be <cite title="Source Title">my soulmate</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 1049.79px;">
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">Breakfast ideas</h5>
+                <p class="card-text">Make it something to look forward to with snacks of pancake,healthy smoothie bowls or perfect poached eggs.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 1227.74px;">
+            <div class="card">
+              <img class="bd-placeholder-img" width="285" height="250" src="https://s3-media0.fl.yelpcdn.com/bphoto/ocOXuVcI0gwXJJUS94jGTg/o.jpg"
+              <svg class="bd-placeholder-img card-img" width="100%" height="260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Card image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Snacks</text></svg>
+      
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 1513.72px;">
+            <div class="card p-3 text-end">
+              <figure class="mb-0">
+                <blockquote class="blockquote">
+                  <p>HEALTHY FOOD MAKES A HEALTHY FUTURE AND LIFE.</p>
+                </blockquote>
+                <figcaption class="blockquote-footer mb-0 text-muted">
+                  Grill <cite title="Source Title">and chill</cite>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 1652.68px;">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Live to eat...</h5>
+                <p class="card-text">.Food shared is happiness multiplied.Eat,drink and live free.Theres no telling what might happen tomorrow!.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </main>
+      
+      
+          <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      
+            <script async="" src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script>
+        
+      
+      </body></html>
+          
+         
+
+
+
+
+
+
+
+</body>
+</html>           
+                                    
+                                    
+                                    
+                                    
